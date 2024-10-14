@@ -63,7 +63,7 @@ esp32:
       CONFIG_ESP32_S3_BOX_3_BOARD: "y"
     components:
       - name: esp32_s3_box_3_board
-        source: github://jesserockz/esp32-s3-box-3-board@main
+        source: github://jamesbiederbeck/esp32-s3-box-3-board@main
         refresh: 0s
 
 psram:
@@ -74,7 +74,7 @@ external_components:
   - source: github://pr#5230
     components: esp_adf
     refresh: 0s
-  - source: github://jesserockz/esphome-components
+  - source: github://jamesbiederbeck/esphome-components
     components: [file]
     refresh: 0s
 
